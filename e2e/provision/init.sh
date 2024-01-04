@@ -55,7 +55,7 @@ export DEBUG=${NEPHIO_DEBUG:-$(get_metadata nephio-setup-debug "false")}
 
 DEPLOYMENT_TYPE=${NEPHIO_DEPLOYMENT_TYPE:-$(get_metadata nephio-setup-type "r1")}
 RUN_E2E=${NEPHIO_RUN_E2E:-$(get_metadata nephio-run-e2e "false")}
-REPO=${NEPHIO_REPO:-$(get_metadata nephio-test-infra-repo "https://github.com/nephio-project/test-infra.git")}
+REPO=${NEPHIO_REPO:-$(get_metadata nephio-test-infra-repo "https://github.com/arora-sagar/test-infra.git")}
 BRANCH=${NEPHIO_BRANCH:-$(get_metadata nephio-test-infra-branch "main")}
 NEPHIO_USER=${NEPHIO_USER:-$(get_metadata nephio-user "ubuntu")}
 NEPHIO_PKG_VERSION=${NEPHIO_PKG_VERSION:-$(get_metadata nephio-pkg-version "main")}
