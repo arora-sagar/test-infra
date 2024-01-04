@@ -17,7 +17,7 @@ gitea:
     password: secret
 
 nephio_pkg_version: r2
-nephio_example_repo_uri: https://github.com/nephio-project/nephio-example-packages.git
+nephio_example_repo_uri: https://github.com/arora-sagar/nephio-example-packages.git
 
 nephio_stock_repos:
   - name: nephio-example-packages
