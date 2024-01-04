@@ -25,7 +25,7 @@ k8s:
 kind:
   enabled: true
 
-nephio_pkg_version: latest
+nephio_pkg_version: r2
 nephio_example_repo_uri: https://github.com/nephio-project/nephio-example-packages.git
 
 gitea:

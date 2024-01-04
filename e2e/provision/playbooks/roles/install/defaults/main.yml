@@ -16,13 +16,13 @@ gitea:
     username: nephio
     password: secret
 
-nephio_pkg_version: latest
+nephio_pkg_version: r2
 nephio_example_repo_uri: https://github.com/nephio-project/nephio-example-packages.git
 
 nephio_stock_repos:
   - name: nephio-example-packages
     repo: "{{ nephio_example_repo_uri }}"
-    branch: main
+    branch: r2
   - name: free5gc-packages
     repo: https://github.com/nephio-project/free5gc-packages.git
     branch: main
