@@ -72,4 +72,4 @@ nephio_webui:
     package:
       repo_uri: https://github.com/nephio-project/nephio-packages.git
       pkg: nephio-webui
-      version: "{{ nephio_pkg_version }}"
+      version: v1.0.1
